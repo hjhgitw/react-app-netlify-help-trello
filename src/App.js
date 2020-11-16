@@ -13,7 +13,7 @@ class LambdaDemo extends Component {
   handleClick = api => e => {
     e.preventDefault()
 
-    if (e.target.name=="GetMail"){
+    if (e.target.name==="GetMail"){
       this.setState({ loadingMail: true})
       console.log("Get Mail clicked")
       
