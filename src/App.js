@@ -21,6 +21,7 @@ class LambdaDemo extends Component {
         //let { temp } = data;
         console.log(data);
       }).then( json => this.setState({ loadingMail: false, msg: "Done"}))
+      .catch( err => this.setState({ msg: err}))
     }
 /*
     this.setState({ loading: true })
