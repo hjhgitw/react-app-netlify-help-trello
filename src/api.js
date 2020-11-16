@@ -45,7 +45,7 @@ export default function fetchMailBoxData() {
 
     const authorizeUri = helpscout.generateAuthorizationUri();
 
-    HTMLFormControlsCollection.log("Open Auth url " + authorizeUri);
+    console.log("Open Auth url " + authorizeUri);
 
     OpenDialog(authorizeUri,300,300,onAfterAuth);
 
