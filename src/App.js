@@ -20,7 +20,7 @@ class LambdaDemo extends Component {
       GetMailData().then(data => {
         //let { temp } = data;
         console.log(data);
-      }).then.setState({ loadingMail: false, msg: "Done"})
+      }).then( json => this.setState({ loadingMail: false, msg: "Done"}))
     }
 /*
     this.setState({ loading: true })
