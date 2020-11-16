@@ -18,7 +18,7 @@ class LambdaDemo extends Component {
       console.log("Get Mail clicked")
       
       GetMailData().then(data => {
-        let { temp } = data;
+        //let { temp } = data;
         console.log(data);
       }).then.setState({ loadingMail: false, msg: "Done"})
     }

@@ -1,8 +1,6 @@
 const HelpScout = require('helpscout-mailbox-api');
 
 // %%APP_ID%% is our openweathermapp appid which we store in an environment variable
-const API_BASE = 'https://api.openweathermap.org/data/2.5/weather?appid=f09f9fd35e1d61a51ed2b4a1ec6e10cf';
-
 
 const url = "https://api.openweathermap.org/data/2.5/weather?appid=f09f9fd35e1d61a51ed2b4a1ec6e10cf&units=metric&lang=en&lat=40.7143528&lon=-74.0059731";
 
